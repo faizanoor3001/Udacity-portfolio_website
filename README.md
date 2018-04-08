@@ -11,10 +11,12 @@ The website provides url's to all git hub repository of the projects.
 1. Clone the project or you can download the project.
 
 ```
-git clone "url"
+git clone https://github.com/faizanoor3001/Udacity-portfolio_website.git
+
+cd Udacity-portfolio_website/
 ```
 
-2. Launch the ``` index.html ``` file. 
+2. Launch the ``` index.html ``` file to open the Portfolio Website.
 
 
 
