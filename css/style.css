@@ -1,0 +1,94 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+a {
+    cursor: pointer;
+}
+
+
+/* HEADER */
+
+header {
+    margin-top: 20px;
+    color: #2d3c49;
+}
+
+.logo-img {
+    padding-top: 25px;
+}
+
+.title-container {
+    text-align: right;
+    text-transform: uppercase;
+}
+
+.title {
+    font-size: 50px;
+}
+
+hr {
+    height: 3px;
+    background: #7d97ad;
+}
+
+
+/* FEATURED PROJECTS */
+
+.featured-projects {
+    margin-top: 20px;
+}
+
+.featured-projects a {
+    text-decoration: none;
+}
+
+.featured-projects h2 {
+    color: #7d97ad;
+}
+
+.featured-projects h3 {
+    text-transform: uppercase;
+    color: #2d3c49;
+}
+
+
+/* PROJECTS */
+
+.project {
+    padding-top: 20px;
+    padding-bottom: 10px;
+    transition: background 0.3s ease-in-out;
+    text-align: center;
+}
+
+.project p {
+    font-size: 12px;
+    transition: opacity 0.3s ease-in-out;
+    word-wrap: break-word;
+    opacity: 0;
+}
+
+.project:hover {
+    background: #e6f9ff;
+}
+
+.project:hover p {
+    opacity: 1;
+}
+
+
+/* FOOTER */
+
+footer {
+    margin: 50px 0 30px;
+    text-align: center;
+}
+
+footer a {
+    white-space: nowrap;
+}
